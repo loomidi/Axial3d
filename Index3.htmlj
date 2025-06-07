@@ -1,0 +1,17 @@
+轴动效果 Axial3d
+3D变换
+
+
+var option1 = {
+    selector: '#axial3d-github',
+    imgs: [
+        { src: 'https://bestvist.github.io/axial3d/public/github/bg.png', left: '0', top: '0' },
+        { src: 'https://bestvist.github.io/axial3d/public/github/house1.png', left: '480px', top: '70px', zIndex: 1 },
+        { src: 'https://bestvist.github.io/axial3d/public/github/house2.png', left: '790px',top: '120px', zIndex: 1 },
+        { src: 'https://bestvist.github.io/axial3d/public/github/ship-shadow.png', left: '440px', top: '250px', zIndex: 2 },
+        { src: 'https://bestvist.github.io/axial3d/public/github/ship.png', left: '430px', top: '140px', zIndex: 2 },
+        { src: 'https://bestvist.github.io/axial3d/public/github/cat-shadow.png', left: '360px', top: '290px', zIndex: 3 },
+        { src: 'https://bestvist.github.io/axial3d/public/github/cat.png', left: '350px', top: '90px', zIndex: 3 },
+    ]
+}
+var effect1 = new Axial3d(option1);
